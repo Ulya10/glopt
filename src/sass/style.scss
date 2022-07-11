@@ -1,0 +1,30 @@
+@import "base/mixins";
+@import "base/variables";
+@import "blocks/buttons";
+@import "blocks/promo";
+@import "blocks/titles";
+@import "blocks/advantages";
+@import "blocks/work";
+@import "blocks/dividers";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul{
+    margin-bottom: 0;
+    list-style-type: none;
+}

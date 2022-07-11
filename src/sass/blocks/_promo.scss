@@ -1,0 +1,116 @@
+.promo {
+    background: url('../../img/bg.jpg') no-repeat center/cover;
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    text-align: center;
+
+    &__divider {
+        margin: 38px 0 27px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__line {
+        height: 2px;
+        width: 400px;
+        background-color: #fff;
+    }
+
+    &__circle{
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin: 0 10px;
+    }
+
+
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.38;
+        color: #fff;
+        margin-top: 16px;
+        
+    }
+
+    &__img{
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 65px;
+        
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width: 95px;
+        height: 99px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__quest {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.71;
+        text-align: right;
+        color: #fff;
+    }
+
+    &__phone {
+        font-size: 19px;
+        font-weight: bold;
+
+        line-height: 1.26;
+
+        text-align: right;
+    }
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 0px;
+    margin-left: 55px;
+    margin-right: 50px;
+
+    &__item {
+        padding: 0 10px;
+        border-right: 1px solid #fff;
+        &:last-child{
+            border-right:  none;
+        }
+        &:hover{
+            
+        }
+    }
+
+    &__link{
+        padding-bottom: 5px;
+        &:hover{
+            color: $main-color;
+            border-bottom: 1px solid $main-color;
+            // &:after{
+            //     content: '';
+            //     position: absolute;
+            //     width: 90%;
+            //     height: 1px;
+            //     background-color: $main-color;
+            // }
+            //border-bottom: 1px solid $main-color;
+        }
+    }
+}
