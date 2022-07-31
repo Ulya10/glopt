@@ -1,0 +1,61 @@
+.footer{
+  min-height: 201px;
+  padding: 24px 0 28px 0;
+  background-color: #25333c;
+  &__upper, &__down{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__logo{
+    margin-right: 44px;
+  }
+
+  &__descr{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  }
+
+  &__link{
+    margin-right: 223px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &__policy{
+    font-size: 13px;
+    font-weight: 300;
+    color: $main-color;
+    &:hover{
+      color: $main-color;
+      text-decoration: underline;
+    }
+  }
+
+  &__team{
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 10px;
+  }
+
+  &__creators{
+    display: flex;
+    align-items:center;
+    margin-left: auto;
+  }
+  &__studio{
+    display: block;
+    width: 30px;
+    height: 32px;
+    opacity: 0.78;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+}

@@ -1,0 +1,53 @@
+.feedback {
+    padding: 51px 0 45px 0;
+    text-align: center;
+    &__slider{
+        margin: 31px auto 0 auto;
+        position: relative;
+    }
+    &__left, &__right{
+        position: absolute;
+        top: 31px;
+        left: 458px;
+        
+    }
+
+    &__right{
+        left: auto;
+        right: 462px;
+    }
+
+    &__item{
+        text-align: center;
+    }
+
+    &__name{
+        margin-top: 19px;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+
+    &__descr{
+        max-width: 601px;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: $text-color;
+        margin-top: 15px;
+    }
+
+    &__people{
+        width: 361px;
+        height: 145px;
+        position: absolute;
+        top: 48px;
+        left: -136px;
+        &2{
+            left: auto;
+            right: -136px;   
+        }
+    }
+}

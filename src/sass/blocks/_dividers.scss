@@ -3,5 +3,13 @@
     height: 1px;
     margin: 20px auto 17px auto;
     background-color: $main-color;
-    
+    &_feedback{
+        margin-top: 25px;
+    }
+    &_footer{
+        width: 1171px;
+        margin: 26px 0 19px;
+        opacity: 0.3;
+        background-color: #fff;
+    }
 }

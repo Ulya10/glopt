@@ -2,14 +2,6 @@
     padding: 51px 0 57px 0;
     text-align: center;
 
-    &__subtitle {
-        font-size: 21px;
-        font-weight: 300;
-
-        line-height: 1.14;
-
-        color: $title-color;
-    }
 
     &__info {
         margin-top: 37px;
@@ -33,7 +25,9 @@
         font-weight: 300;
 
         line-height: 1.57;
+        
         text-align: justify;
+        text-align-last: center;
         color: #3a3a3a;
         margin-top: 10px;
     }

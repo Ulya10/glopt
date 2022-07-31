@@ -2,7 +2,7 @@
   width: 160px;
   height: 45px;
   background-color: $main-color;
-  border-radius: 20px;
+  border-radius: 25px;
   border: none;
   font-size: 12px;
   line-height: 1.83;
@@ -18,5 +18,10 @@
     line-height: 1.17;
     border-radius: 30px;
     margin-top: 37px;
+  }
+
+  &_consult{
+    width: 180px;
+    margin-top: 17px;
   }
 }

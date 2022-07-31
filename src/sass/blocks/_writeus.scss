@@ -1,0 +1,28 @@
+.writeus{
+    background: url(../../img/questionsbg.jpg) center center / cover no-repeat;
+    padding: 62px 0 79px 0;
+    text-align: center;
+    &__wrapper{
+        width: 896px;
+        margin: 0 auto;
+        min-height: 297px;
+        background-color: rgba(256, 256, 256, 0.7);
+        padding-bottom: 25px;
+    }
+    &__headers{
+        padding: 20px 0 19px 0;
+        background-color: #25333c;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__header{
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: bold;
+    }
+    &__subheader{
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: normal;
+    }
+}

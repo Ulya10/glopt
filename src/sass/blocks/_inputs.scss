@@ -1,0 +1,33 @@
+.input {
+    width: 268px;
+    height: 45px;
+    padding: 18px 28px 18px 28px;
+    border: solid 1px rgba(0, 0, 0, 0.21);
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    color: rgba(16, 16, 16, 0.7);
+}
+
+.inputs {
+    margin-top: 68px;
+    &_writeus{
+        margin-top: 18px;
+    }
+}
+
+.textarea{
+    width: 813px;
+    height: 71px;
+    padding: 18px 0 0 25px;
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0.21);
+    background-color: #fff;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    color: rgba(16, 16, 16, 0.7);
+    resize: none;
+}

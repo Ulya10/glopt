@@ -1,0 +1,15 @@
+.managers {
+    background: url('../../img/managersbg.jpg') center center/cover no-repeat;
+    text-align: center;
+    min-height: 342px;
+    padding: 58px 0 76px 0;
+
+    &__descr {
+        margin: 22px auto 0 auto;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        color: #fff;
+        width: 924px;
+    }
+}

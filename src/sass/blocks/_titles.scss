@@ -1,36 +1,56 @@
-.main{
-    &-header{
+.main {
+  &-header {
     margin-top: 10px;
     font-size: 24px;
-  font-weight: 300;
-  line-height: 24px;
-  color: #fff;
-    }
-    &-title{
-        font-size: 72px;
-  font-weight: bold;
-  font-stretch: condensed;
-  line-height: 72px;
-  margin-top: 26px;
-  color: $main-color;
-    }
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+  }
 
-    &-subtitle{
-        font-size: 42px;
-  font-weight: normal;
-  font-stretch: condensed;
-  line-height: 42px;
-  color: #fff;
-  margin-top: 9px;
-    }
+  &-title {
+    font-size: 72px;
+    font-weight: bold;
+    font-stretch: condensed;
+    line-height: 72px;
+    margin-top: 26px;
+    color: $main-color;
+  }
+
+  &-subtitle {
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: condensed;
+    line-height: 42px;
+    color: #fff;
+    margin-top: 9px;
+  }
 
 }
 
-.title{
+.title {
   font-size: 26px;
   font-weight: bold;
   line-height: 0.88;
   text-align: center;
   color: #2e2e2e;
   text-transform: uppercase;
+
+  &_agent {
+    color: #fff;
+    margin-top: 20px;
+    text-transform: none;
+  }
+
+}
+
+.subtitle {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.14;
+  color: $title-color;
+  &_price{
+    line-height: 1.14;
+    max-width: 689px;
+    margin: 0 auto;
+  }
 }
