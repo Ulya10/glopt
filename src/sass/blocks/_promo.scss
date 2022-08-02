@@ -78,9 +78,6 @@
         &:last-child{
             border-right:  none;
         }
-        &:hover{
-            
-        }
     }
 
     &__link{
@@ -88,14 +85,6 @@
         &:hover{
             color: $main-color;
             border-bottom: 1px solid $main-color;
-            // &:after{
-            //     content: '';
-            //     position: absolute;
-            //     width: 90%;
-            //     height: 1px;
-            //     background-color: $main-color;
-            // }
-            //border-bottom: 1px solid $main-color;
         }
     }
 }

@@ -6,7 +6,50 @@
 }
 
 @media (max-width: 1200px) {
-    .menu__item {
-        padding: 0px 3px;
+    .menu{
+        margin-left: 10px;
+        margin-right: 10px;
+        &__item {
+            padding: 0px 5px;
+        }
     }
+
+    .header{
+        &__logo{
+            width: 50px;
+            height: auto;
+        }
+    }
+
+    .quest{
+        display: none;
+    }
+
+    .main-header{
+        margin-top: 15px;
+    }
+
+    .main-title{
+        font-size: 64px;
+        margin-top: 40px;
+    }
+    
+    .main-subtitle{
+        font-size: 36px;
+    }
+
+    .promo{
+        padding-bottom: 50px;
+        min-height: 600px;
+        &__divider{
+            margin: 27px 0;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+    }
+    
+    
+
+
 }
