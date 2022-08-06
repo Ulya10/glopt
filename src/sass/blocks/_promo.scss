@@ -3,6 +3,7 @@
     min-height: 680px;
     padding: 23px 0 82px 0;
     text-align: center;
+    position: relative;
 
     &__divider {
         margin: 38px 0 27px 0;
@@ -17,7 +18,7 @@
         background-color: #fff;
     }
 
-    &__circle{
+    &__circle {
         width: 10px;
         height: 10px;
         background-color: #fff;
@@ -32,16 +33,16 @@
         line-height: 1.38;
         color: #fff;
         margin-top: 16px;
-        
+
     }
 
-    &__img{
+    &__img {
         width: 65px;
         height: 65px;
         text-align: center;
         margin: 0 auto;
         line-height: 65px;
-        
+
     }
 }
 
@@ -59,29 +60,6 @@
         width: 100%;
     }
 
-    &__hwrapper{
-        width: 15px;
-        height: 15px;
-    }
-
-    &__hamburger{
-        position: relative;
-        width: 15px;
-        height: 1px;
-        background-color: #fff;
-        &:before, &:after{
-            position: absolute;
-            content: '';
-            width: 15px;
-            height: 1px;
-            background-color: #fff;
-            top: -5px;
-            left: 0px;
-        }
-        &:after{
-            top: 5px;
-        }
-    }
 }
 
 .menu {
@@ -97,16 +75,38 @@
     &__item {
         padding: 0 10px;
         border-right: 1px solid #fff;
-        &:last-child{
-            border-right:  none;
+
+        &:last-child {
+            border-right: none;
         }
     }
 
-    &__link{
+    &__link {
         padding-bottom: 5px;
-        &:hover{
+
+        &:hover {
             color: $main-color;
             border-bottom: 1px solid $main-color;
         }
     }
+
+}
+
+
+
+.hamburger {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 20px;
+    left: 20px;
+    display: none;
+
+    div {
+        background-color: #fff;
+        height: 2px;
+        margin-bottom: 3px;
+        
+    }
+
 }
