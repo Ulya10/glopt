@@ -1,12 +1,14 @@
 .map {
     background: url(../../img/map.jpg) center center/cover no-repeat;
     height: 500px;
+    .container{
     position: relative;
+    }
 
     &__baloon {
         position: absolute;
-        top: 34.2%;
-        left: 43.3854%;
+        top: 300px;
+        left: 50%;
         background: url(../../img/address.png);
         width: 329px;
         height: 158px;
@@ -15,8 +17,8 @@
 
     &__mark{
         position: absolute;
-        top: 44.8%;
-        left: 39.375%;
+        top: 316px;
+        left: 45%;
     }
 
     &__address{

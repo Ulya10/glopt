@@ -5,11 +5,17 @@
         margin: 31px auto 0 auto;
         position: relative;
     }
+
+    &__wrapper{
+        position: relative;
+    }
     &__left, &__right{
         position: absolute;
-        top: 31px;
+        top: 30%;
+        transform: translate(-50%);
         left: 458px;
-        
+        border: none;
+        background-color: #fff;
     }
 
     &__right{
@@ -50,4 +56,19 @@
             right: -136px;   
         }
     }
+}
+
+[data-nav]{
+ width: 20px;
+ height: 3px;
+ background-color:peachpuff;
+ margin-right: 5px;
+ border: none;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.tns-nav-active{
+    background-color:coral;
 }
